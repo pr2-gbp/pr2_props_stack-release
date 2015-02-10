@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-props
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-catkin, ros-indigo-pr2-gripper-sensor-action, ros-indigo-pr2-gripper-sensor-controller, ros-indigo-pr2-gripper-sensor-msgs, ros-indigo-roscpp
+Homepage: http://ros.org/wiki/pr2_props
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-props
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-pr2-gripper-sensor-action, ros-indigo-pr2-gripper-sensor-controller, ros-indigo-pr2-gripper-sensor-msgs, ros-indigo-roscpp
+Description: pr2_props is a package designed to be the first step towards replacing your real (or imaginary) friends with a robot. Robot gives you mad props yo.
