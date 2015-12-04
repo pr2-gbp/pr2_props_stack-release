@@ -1,6 +1,6 @@
 <package>
   <name>pr2_props</name>
-  <version>1.0.4</version>
+  <version>1.0.5</version>
   <description>pr2_props is a package designed to be the first step towards replacing your real (or imaginary) friends with a robot. Robot gives you mad props yo.</description>
 
   <maintainer email="dash@clearpathrobotics.com">Devon Ash</maintainer>
